@@ -16,12 +16,18 @@ header {
 img {
   /* margin-top: 100px; */
   display: block;
-  width: 500px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 main {
+    color: wheat;
   background-color: darkolivegreen;
   text-align: center;
+}
+
+footer {
+    color: wheat;
+    background-color: darkolivegreen;
 }
