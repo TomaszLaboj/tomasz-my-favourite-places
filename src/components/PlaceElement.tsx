@@ -1,4 +1,5 @@
 interface PlaceElementProps {
+  imagename: string;
   name: string;
   location: string;
   description: string;
@@ -6,12 +7,11 @@ interface PlaceElementProps {
 
 function PlaceElement(props: PlaceElementProps): JSX.Element {
   return (
-    <ul>
-      
+      <ul>
+        <img src={props.imagename} />
         <h3>{props.name}</h3>
-      
-      <li>{props.location}</li>
-      <li>{props.description}</li>
+        <li>{props.location}</li>
+        <li>{props.description}</li>
     </ul>
   );
 }
