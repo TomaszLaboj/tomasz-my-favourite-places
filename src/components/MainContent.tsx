@@ -11,9 +11,9 @@ function MainContent(): JSX.Element {
             
         
         <main>
-            <img src={panshangerpark} alt="Panshanger Park" />
+           
         <PlaceElement
-        
+            imagename = {panshangerpark}
             name = {"Panshanger Park"}
             location = {"Hertford, Hertfordshire, UK"}
             description = {"Good for walks, running, dog walking, cycling and even horse riding."}
@@ -21,23 +21,23 @@ function MainContent(): JSX.Element {
        />
        <img src={blackrocksands} alt="Black Rock Sands" />
         <PlaceElement
-        
+            imagename = {blackrocksands}
             name = {"Black Rock Sands"}
             location = {"Snowdonia, Wales, UK"}
             description = {"Beatiful beach where you can park you car on"}
         
        />
-       <img src={london} alt="London" />
+       
         <PlaceElement
-        
+            imagename = {london} 
             name = {"London"}
             location = {"England,UK"}
             description = {"The capital and largest city of England and the UK."}
         
        />
-       <img src={poland} alt="Poland" />
+       
         <PlaceElement
-        
+            imagename = {poland}
             name = {"Poland"}
             location = {"Europe"}
             description = {"country in Central Europe"}
